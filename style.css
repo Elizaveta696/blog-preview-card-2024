@@ -1,0 +1,28 @@
+*{
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+}
+#container{
+    width: 370px;
+    height: 500px;
+    background-color: white;
+    border-radius:16px;
+    border: 2px solid black;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    box-shadow: 12px 12px rgba(0, 0, 0, 1);
+    
+}
+img{
+    border-radius: 16px;
+    margin-top: 16px;
+    
+}
